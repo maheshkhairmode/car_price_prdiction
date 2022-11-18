@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body background="static/image1.jpg">
+
+    <h1> WELCOME TO CAR PREDICTION</h1>
+    <form method="POST" action="/car_price">
+
+        <tr>
+            <td>
+
+        <label>symboling:</label>                  
+        <input type="text" name="symboling">
+        </select>
+        </td>
+
+    
+        
+        <td>
+        <label>normalized_losses:</label>
+        <input type="text" name="normalized_losses">
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>Fuel_type:</label>
+        <select name="fuel_type">
+            <option value="gas">gas</option>
+            <option value="diesel">diesel</option>
+
+        
+        </select>
+        </td>
+
+        
+    
+        <td>
+        <label>aspiration:</label>
+        <select name="aspiration">
+            <option value="std">std</option>
+            <option value="turbo">turbo</option>
+
+    
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>num_of_doors:</label>
+        <select name="num_of_doors">
+            <option value="two">two</option>
+            <option value="four">four</option>
+        </select>
+        </td>    
+
+        
+        
+        <td>
+        <label>engine_location:</label>
+        <select name="engine_location">
+            <option value="front">front</option>
+            <option value="rear">rear</option>
+        </select> 
+        </td>   
+
+
+        <br>
+        <br>
+
+        
+        <td>
+        <label>wheel_base:</label>
+        <input type="text" name="wheel_base">
+        </td>
+
+        
+        
+
+
+        </tr>
+
+
+
+        
+        
+         <tr>
+            <td>
+        <label>length:</label>
+        <input type="text" name="length">
+        </select>
+        </td>
+
+        
+        
+         <td>
+        <label>width:</label>
+        <input type="text" name="width">
+        </select>
+        </td>
+
+        
+    
+        <td>
+        <label>height:</label>
+        <input type="text" name="height">
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>curb_weight:</label>
+        <input type="text" name="curb_weight">
+        </select>
+        </td>
+
+
+        <br>
+        <br>
+        
+         <td>
+        <label>bore:</label>
+        <input type="text" name="bore">
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>stroke:</label>
+        <input type="text" name="stroke">
+        </select>
+        </td>
+
+        
+        
+        
+
+        <td>   
+        <label>compression_ratio:</label>
+        <input type="text" name="compression_ratio">
+        </select>
+        </td>
+
+        
+        </tr>
+
+        <tr>
+            <td>
+        <label>horsepower:</label>
+        <input type="text" name="horsepower">
+        </select>
+        </td>
+
+
+
+        
+        
+
+        <td>
+        <label>peak_rpm:</label>
+        <input type="text" name="peak_rpm">
+        </select>
+        </td>
+
+        
+        <br>
+        <br>
+
+        <td>
+        <label>city_mpg:</label>
+        <input type="text" name="city_mpg">
+        </select>
+        </td>
+
+        
+    
+        <td>
+        <label>highway_mpg:</label>
+        <input type="text" name="highway_mpg">
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>Fuel_system:</label>
+        <select name="fuel_system">
+            <option value="1bbl">1bbl</option>
+            <option value="2bbl">2bbl</option>
+            <option value="idi">idi</option>
+            <option value="spdi">spdi</option>
+            <option value="spfi">spfi</option>
+
+        </select>
+        </td>
+
+        <br>
+        <br>
+        
+        <td>
+        <label>make:</label>
+        <select name="make">
+            <option value="audi">audi</option>
+            <option value="bmw">bmw</option>
+            <option value="chevrolet">chevrolet</option>
+            <option value="jaguar">jaguar</option>
+            <option value="volkswagen">volkswagen</option>
+
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>body_style:</label>
+        <select name="body_style">
+            <option value="convertible">convertible</option>
+            <option value="hardtop">hardtop</option>
+            <option value="hatchback">hatchback</option>
+            <option value="sedan">sedan</option>
+            <option value="wagon">wagon</option>
+
+        </select>
+        </td>
+        </tr>
+
+        
+        
+        <tr>
+            <td>
+        <label>drive_wheels:</label>
+        <select name="drive_wheels">
+            <option value="4wd">4wd</option>
+            <option value="_fwd">_fwd</option>
+            <option value="rwd">rwd</option>
+             
+            
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>engine_type:</label>
+        <select name="engine_type">
+            <option value="dohc">dohc</option>
+            <option value="ohcf">ohcf</option>
+            <option value="ohcv">ohcv</option>
+             
+        </select>
+        </td>
+
+        
+        
+        <td>
+        <label>num_of_cylinders:</label>
+        <select name="num_of_cylinders">
+            <option value="eight">eight</option>
+            <option value="five">five</option>
+            <option value="four">four</option>
+            <option value="six">six</option>
+            <option value="two">two</option>
+
+        </select>
+        </td>
+        </tr>
+        
+        <br>
+        <br>
+
+        <input type="submit" value="SUBMIT">
+
+        <br>
+        <br>
+
+        <p>PRICE OF THIS CAR IS <b> {{prediction}} /- </b> only</p>
+        
+
+    </form>
+    
+</body>
+</html>
